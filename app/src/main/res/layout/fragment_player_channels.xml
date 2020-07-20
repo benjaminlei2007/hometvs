@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.leanback.widget.BrowseFrameLayout android:id="@+id/framePlayerChannelsContent"
+                                            android:layout_width="fill_parent" android:layout_height="fill_parent"
+                                            xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:layout_gravity="start"
+                                                 android:id="@+id/containerPlayerChannelsList"
+                                                 android:background="@color/content_background"
+                                                 android:layout_width="@dimen/player_channels_width"
+                                                 android:layout_height="fill_parent" android:elevation="8.0dip"/>
+    <FrameLayout android:layout_gravity="start" android:id="@+id/framePlayerPrograms" android:visibility="gone"
+                 android:layout_width="@dimen/player_programs_width" android:layout_height="fill_parent">
+        <View android:id="@+id/programsActiveBackground" android:background="@color/content_background"
+              android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="8.0dip"
+              android:elevation="8.0dip"/>
+        <View android:id="@+id/programsInactiveBackground" android:background="@drawable/programs_inactive_background"
+              android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        <androidx.fragment.app.FragmentContainerView android:id="@+id/containerPlayerPrograms"
+                                                     android:layout_width="fill_parent"
+                                                     android:layout_height="fill_parent"
+                                                     android:layout_marginEnd="8.0dip" android:elevation="8.0dip"/>
+    </FrameLayout>
+</androidx.leanback.widget.BrowseFrameLayout>

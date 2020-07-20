@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent"
+                                                   android:layout_height="fill_parent"
+                                                   xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@+id/headerBackground" android:background="@color/channel_heading_overlay"
+          android:layout_width="0.0dip" android:layout_height="0.0dip"
+          app:layout_constraintBottom_toBottomOf="@+id/header" app:layout_constraintEnd_toEndOf="@id/header"
+          app:layout_constraintStart_toStartOf="@id/header" app:layout_constraintTop_toTopOf="@id/header"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:paddingTop="8.0dip"
+                                                       android:paddingBottom="8.0dip" android:layout_width="0.0dip"
+                                                       android:layout_height="wrap_content"
+                                                       android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+                                                       app:layout_constraintEnd_toEndOf="parent"
+                                                       app:layout_constraintStart_toStartOf="parent"
+                                                       app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" android:layout_width="54.0dip"
+                                                      android:layout_height="36.0dip"
+                                                      app:layout_constraintBottom_toBottomOf="parent"
+                                                      app:layout_constraintStart_toStartOf="parent"
+                                                      app:layout_constraintTop_toTopOf="parent"/>
+        <TextView android:textAppearance="@style/TextAppearance.TvPlayer.MainText" android:textSize="14.0sp"
+                  android:id="@+id/tvNumber" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip"
+                  app:layout_constraintBaseline_toBaselineOf="@id/tvChannel"
+                  app:layout_constraintStart_toEndOf="@id/ivLogo"/>
+        <TextView android:textAppearance="@style/TextAppearance.TvPlayer.MainText" android:textSize="14.0sp"
+                  android:ellipsize="end" android:id="@+id/tvChannel" android:layout_width="0.0dip"
+                  android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium"
+                  android:layout_marginStart="8.0dip" app:layout_constraintBottom_toTopOf="@id/tvPlaylistAndGroupName"
+                  app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tvNumber"
+                  app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed"/>
+        <TextView android:textAppearance="@style/TextAppearance.TvPlayer.SecondaryText" android:textSize="14.0sp"
+                  android:ellipsize="end" android:id="@+id/tvPlaylistAndGroupName" android:layout_width="0.0dip"
+                  android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="8.0dip"
+                  app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toEndOf="@id/ivLogo" app:layout_constraintTop_toBottomOf="@id/tvChannel"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.leanback.widget.VerticalGridView android:id="@+id/vgvPrograms" android:layout_width="0.0dip"
+                                                           android:layout_height="0.0dip"
+                                                           app:layout_constraintBottom_toBottomOf="parent"
+                                                           app:layout_constraintEnd_toStartOf="@id/dividerDates"
+                                                           app:layout_constraintStart_toStartOf="parent"
+                                                           app:layout_constraintTop_toBottomOf="@id/header"/>
+    <TextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:id="@+id/tvNoPrograms"
+              android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/tv_guide_no_programs" app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toStartOf="@id/dividerDates" app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/header"/>
+    <View android:id="@+id/dividerDates" android:background="@color/divider" android:layout_width="@dimen/divider_size"
+          android:layout_height="0.0dip" android:layout_marginEnd="90.0dip"
+          app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/header"/>
+    <androidx.leanback.widget.VerticalGridView android:id="@+id/vgvDates" android:layout_width="0.0dip"
+                                                           android:layout_height="0.0dip"
+                                                           app:layout_constraintBottom_toBottomOf="parent"
+                                                           app:layout_constraintEnd_toEndOf="parent"
+                                                           app:layout_constraintStart_toEndOf="@id/dividerDates"
+                                                           app:layout_constraintTop_toBottomOf="@id/header"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

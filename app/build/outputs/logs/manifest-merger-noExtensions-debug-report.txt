@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+MERGED from [androidx.leanback:leanback:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\58d81e40e775b8a8b8cdf2c95b14de54\leanback-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\006b89f9e8230547fcf8c83894f4f737\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8f362cc4419c8f78caa2c6acb7aa62dd\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\fcfab6afa5843c71526299de41f547b5\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\bcf82615ba701ecdce2fe117e5659ba8\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-dash] D:\Git\hometvs\exoplayer\library\dash\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-hls] D:\Git\hometvs\exoplayer\library\hls\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-rtsp] D:\Git\hometvs\exoplayer\library\rtsp\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-smoothstreaming] D:\Git\hometvs\exoplayer\library\smoothstreaming\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-ui] D:\Git\hometvs\exoplayer\library\ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-rtp] D:\Git\hometvs\exoplayer\library\rtp\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [:library-core] D:\Git\hometvs\exoplayer\library\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ec70c9febe9a92e3d3e5a7313a3906d6\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\275cb375e9fc7f70a29fdb2d76974400\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\a3aa72da257179f8182cc7141e2b9f34\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d8e9af1c7ccd590210ce7288bbb2430d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\e5016c115d628a83d6bb0c28b5cd1da8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\631915cad845770bc32a80bbe87415d9\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\50e2ffd59585a16b7d728216865ce238\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\97b41fb5015a57a7672f76a1ae8dd122\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.1] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ab8fceecc81e866e6c67afd4a4553590\media-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\4a6cd8d5f4848f50f6380a290a59b7dd\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ae4171fbf16d9d8a5a2c20b6cce82eb5\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8cca4477fe841924f5cf0ced5ee2e39b\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8149f0dc50477f194546905729edfcdd\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\75366830687c041681109c8b701bcae4\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\f933954178322b82db1b1b1f3ad2d371\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\b62f45546573f764afba2879de7ab863\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d85b03e1e1df39a703d14677e90dd9c5\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\06ee9435f32deb469291bfad872ff3d6\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\626cbffb2a23dd72a35635e6500f8ad9\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\55f47d74e2ccd56c4c1e8ae59b1658b4\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:library-sdp] D:\Git\hometvs\exoplayer\library\sdp\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\dd2579249c547112268e3b6f15cd1f08\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\72c4d9da0a73cf283f1f96098ad79511\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\7fc9331e9be0f831ec5f91a96e574224\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\29da1e1d29006b2813c51efcaeedbb5e\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\319bf49468b5992866ab1281331cdeef\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\1c3f0fa34130e007958b01ddb85409f2\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\c088124741a7cfaa89b123596f404811\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\a20eebed3dd8ff861fe7cdb16303bb92\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\3f2cf356010b1f41cf91c8981271cb9b\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\b49831b99143e0ab4604bc537c43d53b\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\2c23346769af7320e1d6a8e8aeab162f\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:4:11-39
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:1-87:12
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+MERGED from [androidx.leanback:leanback:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\58d81e40e775b8a8b8cdf2c95b14de54\leanback-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.leanback:leanback:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\58d81e40e775b8a8b8cdf2c95b14de54\leanback-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\006b89f9e8230547fcf8c83894f4f737\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\006b89f9e8230547fcf8c83894f4f737\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8f362cc4419c8f78caa2c6acb7aa62dd\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8f362cc4419c8f78caa2c6acb7aa62dd\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\fcfab6afa5843c71526299de41f547b5\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\fcfab6afa5843c71526299de41f547b5\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\bcf82615ba701ecdce2fe117e5659ba8\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\bcf82615ba701ecdce2fe117e5659ba8\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-dash] D:\Git\hometvs\exoplayer\library\dash\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-dash] D:\Git\hometvs\exoplayer\library\dash\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-hls] D:\Git\hometvs\exoplayer\library\hls\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-hls] D:\Git\hometvs\exoplayer\library\hls\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-rtsp] D:\Git\hometvs\exoplayer\library\rtsp\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-rtsp] D:\Git\hometvs\exoplayer\library\rtsp\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-smoothstreaming] D:\Git\hometvs\exoplayer\library\smoothstreaming\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-smoothstreaming] D:\Git\hometvs\exoplayer\library\smoothstreaming\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-ui] D:\Git\hometvs\exoplayer\library\ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-ui] D:\Git\hometvs\exoplayer\library\ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-rtp] D:\Git\hometvs\exoplayer\library\rtp\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-rtp] D:\Git\hometvs\exoplayer\library\rtp\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-core] D:\Git\hometvs\exoplayer\library\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-core] D:\Git\hometvs\exoplayer\library\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ec70c9febe9a92e3d3e5a7313a3906d6\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ec70c9febe9a92e3d3e5a7313a3906d6\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\275cb375e9fc7f70a29fdb2d76974400\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\275cb375e9fc7f70a29fdb2d76974400\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\a3aa72da257179f8182cc7141e2b9f34\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\a3aa72da257179f8182cc7141e2b9f34\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d8e9af1c7ccd590210ce7288bbb2430d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d8e9af1c7ccd590210ce7288bbb2430d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\e5016c115d628a83d6bb0c28b5cd1da8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\e5016c115d628a83d6bb0c28b5cd1da8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\631915cad845770bc32a80bbe87415d9\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\631915cad845770bc32a80bbe87415d9\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\50e2ffd59585a16b7d728216865ce238\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\50e2ffd59585a16b7d728216865ce238\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\97b41fb5015a57a7672f76a1ae8dd122\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\97b41fb5015a57a7672f76a1ae8dd122\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ab8fceecc81e866e6c67afd4a4553590\media-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ab8fceecc81e866e6c67afd4a4553590\media-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\4a6cd8d5f4848f50f6380a290a59b7dd\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\4a6cd8d5f4848f50f6380a290a59b7dd\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ae4171fbf16d9d8a5a2c20b6cce82eb5\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\ae4171fbf16d9d8a5a2c20b6cce82eb5\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8cca4477fe841924f5cf0ced5ee2e39b\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8cca4477fe841924f5cf0ced5ee2e39b\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8149f0dc50477f194546905729edfcdd\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\8149f0dc50477f194546905729edfcdd\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\75366830687c041681109c8b701bcae4\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\75366830687c041681109c8b701bcae4\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\f933954178322b82db1b1b1f3ad2d371\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\f933954178322b82db1b1b1f3ad2d371\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\b62f45546573f764afba2879de7ab863\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\b62f45546573f764afba2879de7ab863\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d85b03e1e1df39a703d14677e90dd9c5\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d85b03e1e1df39a703d14677e90dd9c5\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\06ee9435f32deb469291bfad872ff3d6\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\06ee9435f32deb469291bfad872ff3d6\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\626cbffb2a23dd72a35635e6500f8ad9\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\626cbffb2a23dd72a35635e6500f8ad9\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\55f47d74e2ccd56c4c1e8ae59b1658b4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\55f47d74e2ccd56c4c1e8ae59b1658b4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:library-sdp] D:\Git\hometvs\exoplayer\library\sdp\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [:library-sdp] D:\Git\hometvs\exoplayer\library\sdp\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\dd2579249c547112268e3b6f15cd1f08\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\dd2579249c547112268e3b6f15cd1f08\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\72c4d9da0a73cf283f1f96098ad79511\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\72c4d9da0a73cf283f1f96098ad79511\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\7fc9331e9be0f831ec5f91a96e574224\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\7fc9331e9be0f831ec5f91a96e574224\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\29da1e1d29006b2813c51efcaeedbb5e\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\29da1e1d29006b2813c51efcaeedbb5e\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\319bf49468b5992866ab1281331cdeef\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\319bf49468b5992866ab1281331cdeef\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\1c3f0fa34130e007958b01ddb85409f2\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\1c3f0fa34130e007958b01ddb85409f2\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\c088124741a7cfaa89b123596f404811\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\c088124741a7cfaa89b123596f404811\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\a20eebed3dd8ff861fe7cdb16303bb92\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\a20eebed3dd8ff861fe7cdb16303bb92\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\3f2cf356010b1f41cf91c8981271cb9b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\3f2cf356010b1f41cf91c8981271cb9b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\b49831b99143e0ab4604bc537c43d53b\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\b49831b99143e0ab4604bc537c43d53b\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\2c23346769af7320e1d6a8e8aeab162f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\2c23346769af7320e1d6a8e8aeab162f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+	android:targetSdkVersion
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+		INJECTED from D:\Git\hometvs\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:9:5-78
+MERGED from [:library-core] D:\Git\hometvs\exoplayer\library\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-79
+MERGED from [:library-core] D:\Git\hometvs\exoplayer\library\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:12:22-74
+uses-feature#android.software.leanback
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:14:5-16:39
+	android:required
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:15:13-53
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:17:5-19:39
+	android:required
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:18:13-56
+application
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:21:5-85:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\006b89f9e8230547fcf8c83894f4f737\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\006b89f9e8230547fcf8c83894f4f737\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d85b03e1e1df39a703d14677e90dd9c5\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\d85b03e1e1df39a703d14677e90dd9c5\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\2c23346769af7320e1d6a8e8aeab162f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\2c23346769af7320e1d6a8e8aeab162f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:26:13-53
+	tools:ignore
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:28:13-43
+	android:largeHeap
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:27:13-37
+	android:icon
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:25:13-47
+	android:allowBackup
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:23:13-40
+	android:banner
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:22:13-65
+activity#com.oldwet.hometvs.MainActivity
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:29:9-36:20
+	android:label
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:30:19-59
+	android:theme
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:31:19-57
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:29:19-65
+intent-filter#category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:32:13-35:29
+category#android.intent.category.DEFAULT
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:17-75
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:34:27-75
+activity#com.oldwet.hometvs.LivePlayerActivity
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:37:9-59:20
+	android:label
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:40:17-57
+	android:launchMode
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:41:17-47
+	android:configChanges
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:39:17-126
+	android:theme
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:42:17-51
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:38:17-69
+intent-filter#action:name:com.oldwet.hometvs.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:asset+data:scheme:content+data:scheme:file+data:scheme:http+data:scheme:https
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:43:13-53:29
+action#com.oldwet.hometvs.action.VIEW
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:44:17-72
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:44:25-70
+data
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+	android:host
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:81:23-39
+	android:scheme
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+	android:pathPattern
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:82:23-64
+intent-filter#action:name:com.oldwet.hometvs.action.VIEW_LIST+category:name:android.intent.category.DEFAULT
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:54:13-58:29
+action#com.oldwet.hometvs.action.VIEW_LIST
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:55:25-75
+activity#com.oldwet.hometvs.ChannelChooserActivity
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:60:9-84:20
+	android:label
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:63:17-57
+	android:configChanges
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:62:17-55
+	android:theme
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:64:17-55
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:61:17-73
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER+data:host:*+data:pathPattern:.*\\.exolist\\.json+data:scheme:asset+data:scheme:content+data:scheme:file+data:scheme:http+data:scheme:https
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:66:13-83:29
+action#android.intent.action.MAIN
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:67:17-68
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:67:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:68:17-86
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:68:27-83
+category#android.intent.category.LAUNCHER
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:69:27-74
+action#android.intent.action.VIEW
+ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:71:17-68
+	android:name
+		ADDED from D:\Git\hometvs\app\src\main\AndroidManifest.xml:71:25-66

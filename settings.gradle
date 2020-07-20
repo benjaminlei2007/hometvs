@@ -1,0 +1,4 @@
+rootProject.name='hometvs'
+include ':app'
+gradle.ext.exoplayerRoot = 'exoplayer'
+apply from: 'exoplayer/core_settings.gradle'

@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oldwet.hometvs"
+4    android:versionCode="2010004"
+5    android:versionName="2.10.4" >
+6
+7    <uses-sdk
+7-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+8        android:minSdkVersion="17"
+8-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+9        android:targetSdkVersion="28" />
+9-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:6:5-16
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:8:5-66
+11-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:9:5-78
+12-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:10:5-79
+13-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:10:22-77
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:11:5-80
+14-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:12:5-76
+15-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:12:22-74
+16
+17    <uses-feature
+17-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:14:5-16:39
+18        android:name="android.software.leanback"
+18-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:15:13-53
+19        android:required="false" />
+19-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:16:13-37
+20    <uses-feature
+20-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:17:5-19:39
+21        android:name="android.hardware.touchscreen"
+21-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:18:13-56
+22        android:required="false" />
+22-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:19:13-37
+23
+24    <application
+24-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:21:5-85:19
+25        android:name="com.oldwet.hometvs.HomeTVsApplication"
+25-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:22:13-65
+26        android:allowBackup="false"
+26-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:23:13-40
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\Ben\.gradle\caches\transforms-2\files-2.1\223ec3c4534a062a0f8e5e235c342354\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:banner="@drawable/ic_banner"
+28-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:24:13-49
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:25:13-47
+31        android:label="@string/application_name"
+31-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:26:13-53
+32        android:largeHeap="true"
+32-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:27:13-37
+33        android:testOnly="true" >
+34        <activity
+34-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:29:9-36:20
+35            android:name="com.oldwet.hometvs.MainActivity"
+35-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:29:19-65
+36            android:label="@string/application_name"
+36-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:30:19-59
+37            android:theme="@style/Theme.AppCompat" >
+37-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:31:19-57
+38            <intent-filter>
+38-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:32:13-35:29
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:17-75
+39-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:27-73
+40                <category android:name="android.intent.category.BROWSABLE" />
+40-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:34:17-77
+40-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:34:27-75
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:37:9-59:20
+44            android:name="com.oldwet.hometvs.LivePlayerActivity"
+44-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:38:17-69
+45            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+45-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:39:17-126
+46            android:label="@string/application_name"
+46-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:40:17-57
+47            android:launchMode="singleTop"
+47-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:41:17-47
+48            android:theme="@style/PlayerTheme" >
+48-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:42:17-51
+49            <intent-filter>
+49-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:43:13-53:29
+50                <action android:name="com.oldwet.hometvs.action.VIEW" />
+50-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:44:17-72
+50-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:44:25-70
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:17-75
+52-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:27-73
+53
+54                <data android:scheme="http" />
+54-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+54-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+55                <data android:scheme="https" />
+55-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+55-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+56                <data android:scheme="content" />
+56-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+56-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+57                <data android:scheme="asset" />
+57-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+57-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+58                <data android:scheme="file" />
+58-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+58-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+59            </intent-filter>
+60            <intent-filter>
+60-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:54:13-58:29
+61                <action android:name="com.oldwet.hometvs.action.VIEW_LIST" />
+61-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:55:17-77
+61-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:55:25-75
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:17-75
+63-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:27-73
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:60:9-84:20
+67            android:name="com.oldwet.hometvs.ChannelChooserActivity"
+67-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:61:17-73
+68            android:configChanges="keyboardHidden"
+68-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:62:17-55
+69            android:label="@string/application_name"
+69-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:63:17-57
+70            android:theme="@style/Theme.AppCompat" >
+70-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:64:17-55
+71            <intent-filter>
+71-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:66:13-83:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:67:17-68
+72-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:67:25-66
+73
+74                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+74-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:68:17-86
+74-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:68:27-83
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:69:17-76
+75-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:69:27-74
+76
+77                <action android:name="android.intent.action.VIEW" />
+77-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:71:17-68
+77-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:71:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:17-75
+79-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:33:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:34:17-77
+80-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:34:27-75
+81
+82                <data android:scheme="http" />
+82-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+82-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+83                <data android:scheme="https" />
+83-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+83-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+84                <data android:scheme="content" />
+84-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+84-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+85                <data android:scheme="asset" />
+85-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+85-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+86                <data android:scheme="file" />
+86-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+86-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:23-44
+87                <data android:host="*" />
+87-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+87-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:81:23-39
+88                <data android:pathPattern=".*\\.exolist\\.json" />
+88-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:48:17-46
+88-->D:\Git\hometvs\app\src\main\AndroidManifest.xml:82:23-64
+89            </intent-filter>
+90        </activity>
+91    </application>
+92
+93</manifest>

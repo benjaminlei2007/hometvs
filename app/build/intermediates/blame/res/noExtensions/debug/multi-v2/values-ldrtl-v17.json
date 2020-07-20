@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Git\\hometvs\\app\\build\\intermediates\\incremental\\mergeNoExtensionsDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-2\\files-2.1\\58d81e40e775b8a8b8cdf2c95b14de54\\leanback-1.0.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,178",
+                        "endColumns": "77,44,46",
+                        "endOffsets": "128,173,220"
+                    }
+                }
+            ]
+        }
+    ]
+}

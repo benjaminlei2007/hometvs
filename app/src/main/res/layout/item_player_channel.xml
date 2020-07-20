@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/focusable_item_background"
+                                                   android:paddingTop="8.0dip" android:paddingBottom="8.0dip"
+                                                   android:focusable="true" android:focusableInTouchMode="true"
+                                                   android:layout_width="fill_parent"
+                                                   android:layout_height="wrap_content" android:paddingStart="8.0dip"
+                                                   android:paddingEnd="8.0dip"
+                                                   xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivLogo" android:layout_width="54.0dip"
+                                                  android:layout_height="36.0dip"
+                                                  app:layout_constraintBottom_toBottomOf="parent"
+                                                  app:layout_constraintStart_toStartOf="parent"
+                                                  app:layout_constraintTop_toTopOf="parent"/>
+    <TextView android:textAppearance="@style/TextAppearance.TvPlayer.MainText" android:textSize="14.0sp"
+              android:id="@+id/tvNumber" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip"
+              app:layout_constraintBaseline_toBaselineOf="@id/tvChannel"
+              app:layout_constraintStart_toEndOf="@id/ivLogo"/>
+    <TextView android:textAppearance="@style/TextAppearance.TvPlayer.MainText" android:textSize="14.0sp"
+              android:ellipsize="end" android:id="@+id/tvChannel" android:layout_width="0.0dip"
+              android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium"
+              android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip"
+              app:layout_constraintBottom_toTopOf="@id/tvProgramTitle" app:layout_constraintEnd_toStartOf="@id/ivPlay"
+              app:layout_constraintStart_toEndOf="@id/tvNumber" app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_chainStyle="packed"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivPlay" android:layout_width="20.0dip"
+                                                  android:layout_height="20.0dip" android:alpha="0.6"
+                                                  app:layout_constraintBottom_toBottomOf="@id/tvChannel"
+                                                  app:layout_constraintEnd_toStartOf="@id/ivCatchup"
+                                                  app:layout_constraintTop_toTopOf="@id/tvChannel"
+                                                  app:srcCompat="@drawable/ic_play_white"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivCatchup" android:layout_width="17.0dip"
+                                                  android:layout_height="17.0dip" android:alpha="0.6"
+                                                  app:layout_constraintBottom_toBottomOf="@id/tvChannel"
+                                                  app:layout_constraintEnd_toEndOf="parent"
+                                                  app:layout_constraintTop_toTopOf="@id/tvChannel"
+                                                  app:srcCompat="@drawable/ic_history_white"/>
+    <Space android:id="@+id/placeholder" android:layout_width="1.0px" android:layout_height="20.0dip"
+           app:layout_constraintBottom_toBottomOf="@id/tvChannel" app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="@id/tvChannel"/>
+    <TextView android:textAppearance="@style/TextAppearance.TvPlayer.SecondaryText.Condensed" android:textSize="14.0sp"
+              android:ellipsize="marquee" android:id="@+id/tvProgramTitle" android:layout_width="0.0dip"
+              android:layout_height="wrap_content" android:singleLine="true"
+              android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="8.0dip"
+              app:layout_constraintBottom_toTopOf="@id/pbProgramProgress" app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toEndOf="@id/ivLogo" app:layout_constraintTop_toBottomOf="@id/tvChannel"/>
+    <ProgressBar android:id="@+id/pbProgramProgress" android:layout_width="0.0dip" android:layout_height="2.0dip"
+                 android:progressTint="@color/secondary_text" app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tvProgramTitle"
+                 app:layout_constraintTop_toBottomOf="@id/tvProgramTitle" style="?android:progressBarStyleHorizontal"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

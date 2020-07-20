@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/player_channels_width"
+                                                   android:layout_height="fill_parent"
+                                                   xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.TvPlayer.MainText" android:textSize="16.0sp"
+              android:ellipsize="end" android:id="@+id/tvPlaylistAndGroupName"
+              android:background="@color/channel_heading_overlay" android:paddingTop="6.0dip"
+              android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content"
+              android:maxLines="1" android:fontFamily="sans-serif-medium" android:paddingStart="12.0dip"
+              android:paddingEnd="12.0dip" app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <androidx.leanback.widget.VerticalGridView android:id="@+id/vgvChannels" android:layout_width="0.0dip"
+                                               android:layout_height="0.0dip"
+                                               app:layout_constraintBottom_toBottomOf="parent"
+                                               app:layout_constraintEnd_toEndOf="parent"
+                                               app:layout_constraintStart_toStartOf="parent"
+                                               app:layout_constraintTop_toBottomOf="@id/tvPlaylistAndGroupName"/>
+    <TextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:id="@+id/tvNoChannels"
+              android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/tv_guide_no_channels" app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/tvPlaylistAndGroupName"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
