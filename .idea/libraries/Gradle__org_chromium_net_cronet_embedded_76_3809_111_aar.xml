@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.chromium.net:cronet-embedded:76.3809.111@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/182929e410ee284224972a3649f79f97/jetified-cronet-embedded-76.3809.111/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/182929e410ee284224972a3649f79f97/jetified-cronet-embedded-76.3809.111/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.chromium.net/cronet-embedded/76.3809.111/7c63a14c9d1f952cbc3ac0141d7df3c2194feea/cronet-embedded-76.3809.111-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

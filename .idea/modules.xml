@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="hometvs/app" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/cast/extension-cast.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/cast/extension-cast.iml" group="hometvs/extension-cast" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/cronet/extension-cronet.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/cronet/extension-cronet.iml" group="hometvs/extension-cronet" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/ffmpeg/extension-ffmpeg.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/ffmpeg/extension-ffmpeg.iml" group="hometvs/extension-ffmpeg" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/flac/extension-flac.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/flac/extension-flac.iml" group="hometvs/extension-flac" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/gvr/extension-gvr.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/gvr/extension-gvr.iml" group="hometvs/extension-gvr" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/ima/extension-ima.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/ima/extension-ima.iml" group="hometvs/extension-ima" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/jobdispatcher/extension-jobdispatcher.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/jobdispatcher/extension-jobdispatcher.iml" group="hometvs/extension-jobdispatcher" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/leanback/extension-leanback.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/leanback/extension-leanback.iml" group="hometvs/extension-leanback" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/mediasession/extension-mediasession.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/mediasession/extension-mediasession.iml" group="hometvs/extension-mediasession" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/okhttp/extension-okhttp.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/okhttp/extension-okhttp.iml" group="hometvs/extension-okhttp" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/opus/extension-opus.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/opus/extension-opus.iml" group="hometvs/extension-opus" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/rtmp/extension-rtmp.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/rtmp/extension-rtmp.iml" group="hometvs/extension-rtmp" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/vp9/extension-vp9.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/vp9/extension-vp9.iml" group="hometvs/extension-vp9" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/extensions/workmanager/extension-workmanager.iml" filepath="$PROJECT_DIR$/exoplayer/extensions/workmanager/extension-workmanager.iml" group="hometvs/extension-workmanager" />
+      <module fileurl="file://$PROJECT_DIR$/hometvs.iml" filepath="$PROJECT_DIR$/hometvs.iml" group="hometvs" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/all/library.iml" filepath="$PROJECT_DIR$/exoplayer/library/all/library.iml" group="hometvs/library" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/core/library-core.iml" filepath="$PROJECT_DIR$/exoplayer/library/core/library-core.iml" group="hometvs/library-core" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/dash/library-dash.iml" filepath="$PROJECT_DIR$/exoplayer/library/dash/library-dash.iml" group="hometvs/library-dash" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/hls/library-hls.iml" filepath="$PROJECT_DIR$/exoplayer/library/hls/library-hls.iml" group="hometvs/library-hls" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/rtp/library-rtp.iml" filepath="$PROJECT_DIR$/exoplayer/library/rtp/library-rtp.iml" group="hometvs/library-rtp" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/rtsp/library-rtsp.iml" filepath="$PROJECT_DIR$/exoplayer/library/rtsp/library-rtsp.iml" group="hometvs/library-rtsp" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/sdp/library-sdp.iml" filepath="$PROJECT_DIR$/exoplayer/library/sdp/library-sdp.iml" group="hometvs/library-sdp" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/smoothstreaming/library-smoothstreaming.iml" filepath="$PROJECT_DIR$/exoplayer/library/smoothstreaming/library-smoothstreaming.iml" group="hometvs/library-smoothstreaming" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/library/ui/library-ui.iml" filepath="$PROJECT_DIR$/exoplayer/library/ui/library-ui.iml" group="hometvs/library-ui" />
+      <module fileurl="file://$PROJECT_DIR$/exoplayer/testutils/testutils.iml" filepath="$PROJECT_DIR$/exoplayer/testutils/testutils.iml" group="hometvs/testutils" />
+    </modules>
+  </component>
+</project>
